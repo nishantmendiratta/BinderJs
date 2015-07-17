@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BinderJS</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/Binder.js"></script>
+	<script type="text/javascript">
+		Binder.config({
+			dir : './assets/js/'
+		});
+		Binder.init({
+			require : ['hello']
+		});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			BinderJs
+		</div>
+		<div class="content">
+			<div class="about">
+				JavaScript files can be included in HTML page using BinderJs functions.
+			</div>
+			<div class="documentation">
+				<div class="subheading">Documentation</div>
+				<div class="comment">- Configure BinderJs using <strong>CONFIG</strong> function. It takes following options.
+					<div>
+						<ul>
+							<li>dir :- Specify the directory of all required files, By default it takes '/'</li>
+							<li>engine :- Specify extension of files, By default it takes '.js' </li>
+						</ul>
+					</div>
+				</div>
+			<pre>
+  <code>
+  Binder.config({
+	dir : <span class="yellow">'./assets/js/'</span>
+  });
+  </code>
+			</pre>
+			<div class="comment">- Initialize BinderJs using <strong>INIT</strong> function. It takes following options.
+					<div>
+						<ul>
+							<li>require :- Specify all required files in array format.</li>
+						</ul>
+					</div>
+				</div>
+			<pre>
+  <code>
+  Binder.init({
+	require : <span class="yellow">['hello','example','awesome','etc']</span>
+  });
+  </code>
+			</pre>
+            <div class="comment">- Calling functions of included files.
+					<div>
+						<ul>
+							<li>
+						This will work only if page is fully loaded, you can use following funtion to check if window is loaded or not.
+							</li>
+						</ul>
+					</div>
+				</div>
+			<pre>
+  <code>
+ <span class="skyblue">window</span>.onload = (<span class="skyblue">function</span> (<span class="orange">oldOnLoad</span>) {
+	<span class="red">return</span> <span class="skyblue">function</span> () {
+	    <span class="red">if</span> (oldOnLoad) { 
+	       olOnLoad();
+	    }
+	    <span class="comm">/*calling a function of hello.js*/</span>
+	    hello.world();
+	}
+ })(<span class="skyblue">window</span>.onload);
+  </code>
+			</pre>
+		
+			<div>
+				<div class="subheading">
+					TODO
+				</div>
+				<ul>
+					<li>Remove warning - "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/".</li>
+				</ul>
+			</div>
+			</div>
+			
+		</div>
+		<div class="footer">
+			<snall>&copy <a href="http://nishantmendiratta.com/BinderJs">nishantmendiratta.com/BinderJS,</a> 2015</small>
+		</div>
+	</div>
+	<script type="text/javascript">
+	window.onload = (function (oldOnLoad) {
+	    return function () {
+	      if (oldOnLoad) { 
+	        olOnLoad();
+	      }
+	      /* calling a function of hello.js */
+	      hello.world();
+	    }
+	  })(window.onload);
+	</script>
+</body>
+</html>

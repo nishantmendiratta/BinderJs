@@ -1,0 +1,79 @@
+body {
+	margin: 0 auto;
+	background: #FFF;
+	color: #412626;
+}
+body a{
+	color: #412626;
+	text-decoration: none;
+}
+.wrapper {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+}
+.header, .footer {
+	font-size: 2em;
+}
+.header {
+	color: #000;
+	margin-top: 4%;
+	font-size: 3em;
+}
+.subheading {
+	font-size: 2em;
+}
+.content {
+
+}
+.content .about {
+	margin-top: 1%;
+	font-size: 1.4em;
+}
+.content .documentation .comment {
+	font-family: cursive;
+	font-size: 14px;
+}
+.content .documentation{
+	margin-top: 8px;
+	color: #000;
+}
+.content .documentation pre {
+	text-align: left;
+	background: #372B2B;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: #FFF;
+}
+.footer {
+	color: #514545;
+	margin-top: 10px;
+	font-weight: 800;
+	font-size: 12px;
+}
+.yellow {
+	color: #F3D212;
+}
+.skyblue {
+	color: #4CA9DB;
+}
+.orange {
+	color: #FF601E;
+}
+.red {
+	color: #DB1A1A;
+}
+.comm{
+	color: #A39D9D;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
