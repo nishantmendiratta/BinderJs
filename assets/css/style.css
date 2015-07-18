@@ -1,4 +1,5 @@
 body {
+	border-top: 2px solid #533D3D;
 	margin: 0 auto;
 	background: #FFF;
 	color: #412626;
@@ -50,6 +51,7 @@ body a{
 	margin-top: 10px;
 	font-weight: 800;
 	font-size: 12px;
+	padding-bottom: 5%;
 }
 .yellow {
 	color: #F3D212;
