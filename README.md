@@ -3,7 +3,7 @@
 - Include BinderJs in you project using following tag.
 <pre>
 	<code>
- &lt<span class="red">script</span> <span class="green">src</span>=<span class="yellow">"assets/js/Binder.js"</span>&gt&lt/<span class="red">script</span>&gt
+ <<span class="red">script</span> <span class="green">src</span>=<span class="yellow">"assets/js/Binder.js"</span>></<span class="red">script</span>>
 	</code>
 </pre>
 
