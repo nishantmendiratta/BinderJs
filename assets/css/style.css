@@ -3,12 +3,18 @@ body {
 	margin: 0 auto;
 	background: #FFF;
 	color: #412626;
+	line-height: 150%;
 }
 body a{
 	color: #412626;
 	text-decoration: none;
 }
+h2 a {
+	color: #D53939;
+	font-family: monospace;
+}
 .wrapper {
+	margin-top: 4%;
 	margin-left: 10%;
 	margin-right: 10%;
 	text-align: left;
@@ -18,7 +24,6 @@ body a{
 }
 .header {
 	color: #000;
-	margin-top: 4%;
 	font-size: 3em;
 }
 .subheading {
@@ -28,7 +33,6 @@ body a{
 
 }
 .content .about {
-	margin-top: 1%;
 	font-size: 1.4em;
 }
 .content .documentation .comment {
@@ -36,19 +40,16 @@ body a{
 	font-size: 14px;
 }
 .content .documentation{
-	margin-top: 8px;
 	color: #000;
 }
 .content .documentation pre {
 	text-align: left;
 	background: #372B2B;
 	margin-left: 5px;
-	margin-top: 5px;
 	color: #FFF;
 }
 .footer {
 	color: #514545;
-	margin-top: 10px;
 	font-weight: 800;
 	font-size: 12px;
 	padding-bottom: 5%;
@@ -64,6 +65,9 @@ body a{
 }
 .red {
 	color: #DB1A1A;
+}
+.green {
+	color: #17D726;
 }
 .comm{
 	color: #A39D9D;

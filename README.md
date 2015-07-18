@@ -1,5 +1,12 @@
 ## BinderJS :: An Includer
 ##### JavaScript files can be included in HTML page using BinderJs functions.
+- Include BinderJs in you project using following tag.
+<pre>
+	<code>
+ &lt<span class="red">script</span> <span class="green">src</span>=<span class="yellow">"assets/js/Binder.js"</span>&gt&lt/<span class="red">script</span>&gt
+	</code>
+</pre>
+
 ###Documentation :
 - Configure BinderJs using <b>CONFIG</b> function. It takes following options.
 <ul>
@@ -45,7 +52,7 @@ This will work only if page is fully loaded, you can use following funtion to ch
 </pre>
 
 ###TODO
-<ul>
+<ul>m Author : - 
 <li>
 Remove warning - "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check http://xhr.spec.whatwg.org/".
 </li>
