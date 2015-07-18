@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>BinderJS</title>
+	<title>BinderJS :: An Includer</title>
+	<meta name="description" content="JavaScript files can be included in HTML page using BinderJs functions."/>
+	<meta name="keywords" content="javascript,js,bundle,bundlejs,nishant,mendiratta,developers,html,git,functions,files,page"> 
+	<meta name="robots" content="index,follow">
+	<link rel="icon" href="assets/images/favicon.ico" sizes="16x16" type="image/png"> 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="assets/js/Binder.js"></script>
 	<script type="text/javascript">
@@ -17,7 +21,7 @@
 <body>
 	<div class="wrapper">
 		<div class="header">
-			BinderJs
+			BinderJS :: JS Includer
 		</div>
 		<div class="content">
 			<div class="about">
@@ -89,7 +93,8 @@
 			
 		</div>
 		<div class="footer">
-			<snall>&copy <a href="http://nishantmendiratta.com/BinderJs">nishantmendiratta.com/BinderJS,</a> 2015</small>
+			<snall>&copy <a href="http://binderjs.herokuapp.com/">binderjs.herokuapp.com,</a> 2015 &middot <a href="
+https://github.com/nishantmendiratta/BinderJs">GIT Repo</a></small>
 		</div>
 	</div>
 	<script type="text/javascript">
@@ -102,6 +107,16 @@
 	      hello.world();
 	    }
 	  })(window.onload);
+	</script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-65294516-1', 'auto');
+	  ga('send', 'pageview');
 	</script>
 </body>
 </html>
