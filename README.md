@@ -51,4 +51,4 @@ Remove warning - "Synchronous XMLHttpRequest on the main thread is deprecated be
 </li>
 </ul>
 
-<small>© binderjs.herokuapp.com, 2015 · GIT Repo</small>
+<small>© binderjs.herokuapp.com, 2015 · <a href='https://github.com/nishantmendiratta/BinderJs'>GIT Repo</a> · Author, <a href='http://github.com/nishantmendiratta'>Nishant Mendiratta</a></small>
