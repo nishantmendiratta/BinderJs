@@ -1,85 +1,102 @@
-body {
-	border-top: 2px solid #533D3D;
-	margin: 0 auto;
-	background: #FFF;
-	color: #412626;
-	line-height: 150%;
+body
+{
+    line-height: 150%;
+    margin: 0 auto;
+    color: #412626;
+    border-top: 2px solid #533d3d;
+    background: #fff;
 }
-body a{
-	color: #412626;
-	text-decoration: none;
+body a
+{
+    text-decoration: none;
+    color: #412626;
 }
-h2 a {
-	color: #D53939;
-	font-family: monospace;
+h2 a
+{
+    font-family: monospace;
+    color: #d53939;
 }
-.wrapper {
-	margin-top: 4%;
-	margin-left: 10%;
-	margin-right: 10%;
-	text-align: left;
+.wrapper
+{
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: left;
 }
-.header, .footer {
-	font-size: 2em;
+.header,
+.footer
+{
+    font-size: 2em;
 }
-.header {
-	color: #000;
-	font-size: 3em;
+.header
+{
+    font-size: 3em;
+    color: #000;
 }
-.subheading {
-	font-size: 2em;
+.subheading
+{
+    font-size: 2em;
 }
-.content {
-
+.content .about
+{
+    font-size: 1.4em;
 }
-.content .about {
-	font-size: 1.4em;
+.content .documentation .comment
+{
+    font-family: cursive;
+    font-size: 14px;
 }
-.content .documentation .comment {
-	font-family: cursive;
-	font-size: 14px;
+.content .documentation
+{
+    color: #000;
 }
-.content .documentation{
-	color: #000;
+.content .documentation pre
+{
+    margin-left: 5px;
+    text-align: left;
+    color: #fff;
+    background: #372b2b;
 }
-.content .documentation pre {
-	text-align: left;
-	background: #372B2B;
-	margin-left: 5px;
-	color: #FFF;
+.footer
+{
+    font-size: 12px;
+    font-weight: 800;
+    padding-bottom: 5%;
+    color: #514545;
 }
-.footer {
-	color: #514545;
-	font-weight: 800;
-	font-size: 12px;
-	padding-bottom: 5%;
+.yellow
+{
+    color: #f3d212;
 }
-.yellow {
-	color: #F3D212;
+.skyblue
+{
+    color: #4ca9db;
 }
-.skyblue {
-	color: #4CA9DB;
+.orange
+{
+    color: #ff601e;
 }
-.orange {
-	color: #FF601E;
+.red
+{
+    color: #db1a1a;
 }
-.red {
-	color: #DB1A1A;
+.green
+{
+    color: #17d726;
 }
-.green {
-	color: #17D726;
+.comm
+{
+    color: #a39d9d;
 }
-.comm{
-	color: #A39D9D;
-}
-::-webkit-scrollbar {
+::-webkit-scrollbar
+{
     width: 10px;
 }
- 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 }
- 
-::-webkit-scrollbar-thumb {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
 }
